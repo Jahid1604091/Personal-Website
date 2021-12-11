@@ -1,6 +1,162 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*box-sizing : to include the padding and border in an element's total width and height. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*box-sizing : to include the padding and border in an element's total width and height. */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 10%;
+  background-image: url("../images/header-bg.png");
+  background-repeat: none;
+}
+.header .text-content h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: rgb(228, 53, 82);
+  margin: 3% 0;
+  letter-spacing: 2px;
+}
+.header .text-content p {
+  text-transform: capitalize;
+  margin: 3% 0;
+  line-height: 20px;
+}
+.header .text-content button {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 6px 20px;
+  cursor: pointer;
+  background-color: rgb(228, 53, 82);
+  color: white;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid rgb(228, 53, 82);
+}
+.header button:hover {
+  background-color: white;
+  color: rgb(228, 53, 82);
+  border: 1px solid rgb(228, 53, 82);
+}
+
+.header .photo img {
+  width: 100%;
+}
+
+.biography {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 10%;
+  background-image: url("../images/biography-bg.png");
+  background-repeat: none;
+}
+
+.biography .text-content {
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.biography .text-content h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 3% 0;
+  letter-spacing: 2px;
+}
+.biography .text-content p {
+  text-transform: capitalize;
+  margin: 3% 0;
+  line-height: 20px;
+}
+.biography .text-content button {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 6px 20px;
+  cursor: pointer;
+  background-color: rgb(228, 53, 82);
+  color: white;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid rgb(228, 53, 82);
+}
+.biography button:hover {
+  background-color: white;
+  color: rgb(228, 53, 82);
+  
+}
+
+.biography .photo img {
+  width: 100%;
+}
+
+.works{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: none;
+}
+
+.works h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 3% 0;
+}
+.works .latest {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.works .latest img {
+  width: 100%;
+}
+
+
+.clients{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: none;
+    text-align: center;
+    
+}
+
+.clients h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 3% 0;
+}
+
+.clients  .message{
+    padding: 3%;
+    background-color: rgb(228, 53, 82);
+    align-items: self-center;
+    margin:20px auto;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.clients  .message a{
+    padding: 3%;
+    background-color: rgb(228, 53, 82);
+    text-transform: lowercase;
+    text-decoration: none;
+    color: white;
+}
+.clients .latest img {
+  width: 100%;
+}
+
+footer{
+   text-align: center;
+   font-style: italic;
+   font-size: 18px;
 }
